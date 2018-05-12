@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popupWindow">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exInput"
+        android:layout_above="@+id/newEntry"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/newEntry"
+
+        android:layout_above="@+id/buttons"
+        android:layout_alignLeft="@+id/buttons"
+        android:layout_alignStart="@+id/buttons"
+       android:inputType="textAutoComplete"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttons"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ok"
+            android:text="@string/ok"
+            android:onClick="addExercise"
+            />
+        <Button
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:text="@string/cancel"
+            android:onClick="backToMainScreen"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

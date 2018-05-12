@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="Input weight"
+        android:id="@+id/weight_input"
+        app:showAsAction="never" />
+    <item
+        android:title="Weight record"
+        android:id="@+id/weight_record"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@id/search_bar"
+        android:actionViewClass="android.support.v7.widget.SearhView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@android:drawable/ic_menu_search"/>
+
+
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exercise Tracker</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="numInput">Please Enter The Weight You Lifted.</string>
+    <string name="exInput">Please Enter The Name Of The Exercise.</string>
+    <string name="stay">STAY</string>
+    <string name="add">ADD</string>
+    <string name="weight">WEIGHT</string>
+</resources>
